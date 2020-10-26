@@ -23,6 +23,7 @@ router.post('/', (req, res) => {
         totalSales: req.body.totalSales,
         totalJobs: req.body.totalJobs,
         jobsSold: req.body.jobsSold,
+        jobOpp: req.body.jobOpp
     });
 
     newTech.save().then(tech => res.json(tech));
