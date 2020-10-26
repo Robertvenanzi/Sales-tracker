@@ -1,0 +1,27 @@
+{
+  "name": "sales-tracker",
+  "version": "0.0.1",
+  "description": "Sales KPI Tracker",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertvenanzi/Sales-tracker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertvenanzi/Sales-tracker/issues"
+  },
+  "homepage": "https://github.com/Robertvenanzi/Sales-tracker#readme",
+  "dependencies": {
+    "mongoose": "^5.10.10",
+    "nodemon": "^2.0.6"
+  }
+}
