@@ -1,0 +1,87 @@
+.navbar_login{
+    display: grid;
+    min-height: 90px;
+    grid-auto-flow: column;
+    background-color: #fff;  /*51bb7b*/
+    grid-gap: 1.5em;
+    padding: 0 40px;
+    border: 0 solid rgba(199, 196, 196, .8);
+    border-bottom-width: 1px;
+    /* -webkit-box-shadow: -1px 4px 5px 0px rgba(199, 196, 196, .8);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(199, 196, 196, .8);
+    box-shadow: -1px 4px 5px 0px rgba(199, 196, 196, .8); */
+}
+
+.logo_login {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #51bb7b;
+  }
+
+.title_login{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+.title_login span {
+    color: #51bb7b;
+  }
+
+.form_login {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    margin-top: 15vh;
+  }
+
+.form_group__login {
+    display: block;
+}
+
+
+.form_login input{
+    border-width: 1px;
+    border-color: rgba(231,231,231, .5);
+    border-radius: .4rem;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 60%;
+    padding: 10px 15px;
+    line-height: 2;
+    outline: 0;
+    margin: 10px 0;
+}
+
+.form_login input:focus {
+    outline: 0;
+    box-shadow: inset 0 0 0 2px #51bb7b
+}
+
+.form_submit__login {
+    padding: 20px 15px;
+    width: 60%;
+    background-color: #51bb7b;
+    color: #fff;
+    border: none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    outline: 0;
+    margin: 20px 0 5px 0;
+    cursor: pointer;
+}
+
+.forgot_login {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
