@@ -1,0 +1,15 @@
+.add_button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-top: 27rem;
+    margin-right: 9px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add_button :hover {
+    transform: scale3D(.9);
+}
