@@ -1,0 +1,12 @@
+.menu_sidebar {
+    color: #fff;
+    font-size: 1rem;
+    margin: 75px 32px 0px 0px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.menu_sidebar :hover {
+    transform: translateY(-3px);
+}
